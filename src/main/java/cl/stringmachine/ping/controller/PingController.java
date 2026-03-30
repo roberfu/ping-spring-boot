@@ -13,7 +13,7 @@ public class PingController {
 
 	@GetMapping("")
 	public ResponseEntity<Map<String, String>> ping() {
-		return ResponseEntity.ok(Map.of("message", "its all good man"));
+		return ResponseEntity.ok(Map.of("message", "pong"));
 	}
 
 }
